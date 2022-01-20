@@ -99,5 +99,9 @@ client.on("messageCreate", async message => {
         }
     })
 })
+
+
+
+
 access_token = os.environ["BOT_TOKEN"]
 client.login(access_token)
